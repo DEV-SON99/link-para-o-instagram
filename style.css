@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "outfit", sans-serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #282828;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+header img {
+    height: 388px;
+    width: 388px;
+    
+    border-radius: 388px;
+
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #5e5e5e;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.degrade {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(38, 38, 35));
+}
+
+.bi-youtube{
+    color: red;
+}
+
+.bi-whatsapp {
+    color: green;
+}
+
+span {
+    color: #fff;
+
+}
+
+/*ESTILO DO HEADER*/
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*estilização dos botões*/
+
+section.botoes-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+a.link i {
+    font-size: 1.5em;
+}
+
+a.link button:hover{
+    transform: scale(1.2);
+}
+
+
+.link_geradorSenha {
+    font-size: 17px;
+    color: rgba(20, 111, 230, 0.74);
+    text-decoration: underline;
+}
+
+
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+.btn-footer {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.btn-footer:hover {
+    transform: scale(1.2);
+}
+
+.btn-footer:hover {
+    transition: .3s;
+}
